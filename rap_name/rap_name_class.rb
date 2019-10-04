@@ -5,10 +5,10 @@ class Rap_name
     @title = title
     @acronym = acronym
 
-    @adjective = File.readlines("/Users/mustafayusuf/Downloads/RubyExercises/rap_name/adj.adj").sample
-    @adverb = File.readlines("/Users/mustafayusuf/Downloads/RubyExercises/rap_name/adv.adv").sample
-    @noun = File.readlines("/Users/mustafayusuf/Downloads/RubyExercises/rap_name/noun.txt").sample
-    @verb = File.readlines("/Users/mustafayusuf/Downloads/RubyExercises/rap_name/verb.verb").sample
+    @adjective = File.readlines("rap_name/adj.adj").sample
+    @adverb = File.readlines("rap_name/adv.adv").sample
+    @noun = File.readlines("rap_name/noun.txt").sample
+    @verb = File.readlines("rap_name/verb.verb").sample
     @shook = false
   end
 
